@@ -1,0 +1,29 @@
+###register
+POST http://localhost:3000/api/register
+
+{
+  "email":"test@email.com",
+  "mobileNumber":"789789",
+  "fullName":"name1",
+  "password":"password"
+}
+
+
+###login
+POST http://localhost:3000/api/login
+
+{
+  "username":"test@email.com",
+  "password":"password"
+}
+
+
+
+###codetest
+POST http://localhost:3000/api/code
+
+{
+  "userToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGUiOiI3ODk3ODkiLCJlbWFpbCI6InRlc3RAZW1haWwuY29tIiwiaWF0IjoxNzEyNzU1NDYyfQ.4gHE59QyvbqR2fbcSfMte2fvVEg8GeGLEqX9KvYXc9E",
+  "prompt":"testing prompt",
+  "code":"<div><h1>Testing heading</h1><p>Testing description</p></div>"
+}
